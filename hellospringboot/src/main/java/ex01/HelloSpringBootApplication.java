@@ -48,7 +48,7 @@ public class HelloSpringBootApplication {
 //			}finally {
 //				c.close();
 //		}
-		
+		try(ConfigurableApplicationContext c = SpringApplication.run(HelloSpringBootApplication.class, args)) {}
 	}
 
 }
