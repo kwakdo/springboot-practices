@@ -39,15 +39,15 @@ public class HelloSpringBootApplication {
 		 * 5. ApplicationRunner 인터페이스를 구현한 빈을 찾아서 실행
 		 */
 		
-		ConfigurableApplicationContext c = null;
-		
-		try {
-				c = SpringApplication.run(HelloSpringBootApplication.class, args);
-			}catch(Throwable ex) {
-				ex.printStackTrace();
-			}finally {
-				c.close();
-		}
+//		ConfigurableApplicationContext c = null;
+//		
+//		try {
+//				c = SpringApplication.run(HelloSpringBootApplication.class, args);
+//			}catch(Throwable ex) {
+//				ex.printStackTrace();
+//			}finally {
+//				c.close();
+//		}
 		
 	}
 
